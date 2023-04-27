@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+}
+body{
+/* background: linear-gradient(rgb(237, 198, 242) 15%, rgb(154, 149, 161)); */
+font-family: sans-serif;
+height: 130vh;
+margin: 0%;
+}
+.container-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+
+.Section{
+  height: 100px;
+  width: 900px;
+  border: 1px solid black;
+}
+.container{
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 10px 20px 25px rgb(0, 0, 0,1);
+  overflow: hidden;
+  max-width: 100%;
+  width: 400px;
+}
+.header{
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+}   
+.header h2{
+  margin: 0%;
+  text-align: center;
+}
+.form{
+  padding: 30px 40px;
+}
+.form-control{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control label{
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight:700;
+
+}
+.form-control input{
+  border: 2px solid #e1e1e1;
+  border-radius: 5px;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  max-width: 800px;
+}
+.form-control input:focus{
+  outline: none;
+  border-color: rgb(144, 144, 143);
+}
+
+.form-control .error{
+  color: #ff3860;
+}
+.invalid{
+  color: #ff0033;
+  background-color: #f9c5cf;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+
+}
+.sucess{
+  color: #0dea0a;
+  background-color: #c5f7c4;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+
+}
+
+
+.form button{
+  background-color: #a60b7a;
+  border: none;
+  color: #ffff;
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form button:hover{
+  background-color: #039e00;
+  border: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-shadow: #777;
+}
+.login-link{
+ margin-top: 10px;
+  text-decoration: none;
+  text-align: center;  
+  font-size: 16px;
+  font-weight: 600;
+}
+.signInButton{
+  margin-top: 100px;
+  width :600px;
+  margin-right: 100px;
+}

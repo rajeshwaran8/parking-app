@@ -1,0 +1,168 @@
+.parking-container {
+    margin: 50px;
+  }
+  
+  .parking-slots {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .parking-slot {
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .available {
+    background-color: green;
+    color: white;
+  }
+  .available:hover {
+    background-color: rgb(84, 1, 100);
+    color: white;
+  }
+  
+  .occupied {
+    background-color: red;
+    color: white;
+  }
+  
+  .slot-tooltip {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }     
+
+  /* CSS for LocationBoxes component */
+.location-boxes {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 300px;
+  background-color: #878025;
+  border: 1px solid #ccc;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.location-box p{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.location-box:hover {
+  background-color: #2e6805;
+  border-color: #048012;
+}
+.parking-slotss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.parking-slott {
+  width: 200px;
+  height: 150px;
+  background-color: green;
+  border: 1px solid #ccc;
+  color: #ffff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+}
+.parking-slott:hover {
+  width: 200px;
+  height: 150px;
+  background-color: rgb(0, 49, 0);
+  border: 1px solid #b4abab;
+  color: #ffff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+}
+
+
+.parking-slott p {
+  margin: 0;
+  font-size: large;
+}
+.slot_park{
+text-align: center;
+display: flex;
+  justify-content: center;
+}
+
+.unavailable{
+  background-color: red;
+}
+.unavailable:hover{
+  background-color: rgb(175, 7, 7);
+}
+.red{
+  height: 10px;
+  width: 10px;
+  border: 2px solid rgb(192, 1, 1);
+  background-color: red;
+
+}
+.green{
+  height: 10px;
+  width: 10px;
+  border: 2px solid rgb(7, 173, 2);
+  background-color: green;
+}
+.status{
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 200px;
+
+}

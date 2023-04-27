@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color: white;
+    background-color: rgb(84, 1, 100);
+}
+.nav-links{
+
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    
+
+}
+.home,.login,.register,.show-slot,.add-slot,.view{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+li:hover{
+
+    color: yellow;
+}
+.hamberger {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+  }
+  
